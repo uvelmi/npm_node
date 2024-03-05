@@ -1,0 +1,35 @@
+{
+    "name": "instruments",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write .",
+        "lint:js": "eslint '**/*.js'",
+        "lint:css": "stylelint './src/**/*.css'",
+        "prepare": "husky install",
+        "lint": "npm run lint:js && npm run lint:css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mrerberg/instruments.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mrerberg/instruments/issues"
+    },
+    "homepage": "https://github.com/mrerberg/instruments#readme",
+    "devDependencies": {
+        "eslint": "^8.13.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.4",
+        "prettier": "^2.6.2",
+        "stylelint": "^14.7.1",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-standard": "^25.0.0",
+        "stylelint-prettier": "^2.0.0"
+    }
+}
